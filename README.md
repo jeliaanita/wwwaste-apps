@@ -1,16 +1,47 @@
-# wwwwaste
+# 🌟 WWWASTE APPS "Star Wars People Directory"
 
-A new Flutter project.
+A Flutter mobile application that displays Star Wars characters from the SWAPI (Star Wars API).
 
-## Getting Started
+##  Features
 
-This project is a starting point for a Flutter application.
+- List of Star Wars characters with cards
+- Detailed character information
+- Pull-to-refresh functionality
+- GetX state management
+- Clean and modern UI
+- Proper error handling
 
-A few resources to get you started if this is your first Flutter project:
+##  Tech Stack
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter** - UI Framework
+- **GetX** - State Management & Navigation
+- **HTTP** - API Communication
+- **SWAPI** - Star Wars API
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##  Screenshots
+
+
+
+## How to Run
+```bash
+# Clone repository
+git clone https://github.com/jeliaanita/wwwaste-apps.git
+
+# Go to project directory
+cd starwars-flutter-app
+
+# Get dependencies
+flutter pub get
+
+# Run app
+flutter run
+```
+
+## Dependencies
+```yaml
+dependencies:
+  flutter:
+    sdk: flutter
+  get: ^4.6.6
+  http: ^1.1.0
+```
